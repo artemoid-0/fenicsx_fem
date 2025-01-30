@@ -1,0 +1,20 @@
+{
+    "experiment_id": 44,
+    "mesh": {
+        "nx": 20,
+        "ny": 20,
+        "nz": 20
+    },
+    "material_ratio": 0.4583333333333333,
+    "materials": {
+        "kappa1": 400,
+        "kappa2": 2.4
+    },
+    "boundary_conditions": [
+        "BoundaryCondition(type=Dirichlet, side=LEFT, value=100)",
+        "BoundaryCondition(type=Dirichlet, side=RIGHT, value=24)",
+        "BoundaryCondition(type=Neumann, side=FRONT, flux_value=-15)",
+        "BoundaryCondition(type=Neumann, side=TOP, flux_value=10)",
+        "BoundaryCondition(type=Robin, side=TOP, coefficient=c_0, reference_value=24)"
+    ]
+}

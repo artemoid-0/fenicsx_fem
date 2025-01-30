@@ -1,0 +1,12 @@
+HELLO FROM PROCESS #0
+Сохранено изображение регионов материалов: results_single/material_regions_exp26.png
+Сохранено изображение распределения температуры: results_single/temperature_distribution_exp26.png
+Process 0 COMPLETED EXPERIMENT #26
+WE GOT THE SOLUTION!
+Results saved to single_mpi_timing_results.csv
+Total program time: 56.4169 seconds.
+
+
+
+
+
